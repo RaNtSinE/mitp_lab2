@@ -1,0 +1,26 @@
+.Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Control {
+    display: flex;
+    flex-direction: row;
+}
+
+.Row input {
+    border: 1px solid orange;
+    outline: none;
+    width: 400px;
+}
+
+.Controls {
+    margin-left: 5px;
+}
+
+.Result {
+    background: orange;
+    border-radius: 5px;
+    padding: 1px 5px;
+    cursor: pointer;
+}

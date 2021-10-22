@@ -1,0 +1,1 @@
+(()=>{"use strict";new class{constructor(){this.text=document.getElementsByClassName("Calculator")[0],this.result=document.getElementsByClassName("Result")[0],this.result.addEventListener("click",this.doCalculate.bind(this)),this.parser=new class{constructor(){}doParse(s){console.log(s)}}}doCalculate(){console.log(this.result.value),this.parser.doParse(this.result.value)}}})();

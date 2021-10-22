@@ -1,0 +1,14 @@
+class Division extends Operation
+{
+
+    constructor()
+    {
+        super();
+    }
+
+    doOperation(a, b)
+    {
+        return parseFloat(a) / parseFloat(b);
+    }
+
+}

@@ -1,0 +1,30 @@
+.Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Uravnenie {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Row input {
+    border: 1px solid orange;
+    outline: none;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Controls {
+    margin-left: 5px;
+}
+
+.Result {
+    background: orange;
+    border-radius: 5px;
+    padding: 1px 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
